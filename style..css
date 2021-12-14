@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #102626;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.img {
+    width: 60%;
+    display: flex;
+    margin-left: 10%;
+  
+}
+
+.col-3 {
+    width: 20%;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px;
+    color: white;
+}
+p{
+    font-size: 17px;
+    
+}
+
